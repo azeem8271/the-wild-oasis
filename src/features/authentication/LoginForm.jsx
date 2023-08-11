@@ -9,7 +9,7 @@ import Form from "../../ui/Form";
 
 function LoginForm() {
   const [email, setEmail] = useState("test@example.com");
-  const [password, setPassword] = useState("Password@123");
+  const [password, setPassword] = useState("Test@123");
   const { login, isLoading } = useLogin();
 
   function handleSubmit(e) {
