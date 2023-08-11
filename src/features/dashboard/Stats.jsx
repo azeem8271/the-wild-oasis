@@ -4,7 +4,9 @@ import {
   HiOutlineCalendarDays,
   HiOutlineChartBar,
 } from "react-icons/hi2";
+
 import Stat from "./Stat";
+
 import { formatCurrency } from "../../utils/helpers";
 
 export default function Stats({

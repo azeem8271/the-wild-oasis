@@ -153,8 +153,8 @@ export default function DurationChart({ confirmedStays }) {
             data={data}
             nameKey="duration"
             dataKey="value"
-            innerRadius={85}
-            outerRadius={110}
+            innerRadius={80}
+            outerRadius={105}
             cx="40%"
             cy="50%"
             paddingAngle={3}

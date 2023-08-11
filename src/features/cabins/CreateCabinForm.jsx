@@ -1,6 +1,4 @@
 import { useForm } from "react-hook-form";
-import { useCreateCabin } from "./useCreateCabin";
-import { useEditCabin } from "./useEditCabin";
 
 import FileInput from "../../ui/FileInput";
 import Textarea from "../../ui/Textarea";
@@ -8,6 +6,9 @@ import FormRow from "../../ui/FormRow";
 import Button from "../../ui/Button";
 import Input from "../../ui/Input";
 import Form from "../../ui/Form";
+
+import { useCreateCabin } from "./useCreateCabin";
+import { useEditCabin } from "./useEditCabin";
 
 export default function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
   const { isCreating, createCabin } = useCreateCabin();

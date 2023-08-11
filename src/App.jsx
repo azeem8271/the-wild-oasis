@@ -16,6 +16,7 @@ import Login from "./pages/Login";
 import Booking from "./pages/Booking";
 import Checkin from "./pages/checkin";
 import ProtectedRoute from "./ui/ProtectedRoute";
+
 import { DarkModeProvider } from "./context/DarkModeContext";
 
 const queryClint = new QueryClient({
